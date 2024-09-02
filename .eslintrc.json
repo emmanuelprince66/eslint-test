@@ -39,12 +39,12 @@
     "jsx-a11y/click-events-have-key-events": "warn",
     "jsx-a11y/interactive-supports-focus": "warn",
     "prettier/prettier": "warn",
-    "no-unused-vars": "off",
-    "unused-imports/no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "warn",
+    "no-unused-vars": "error", // Changed from "off" to "error"
+    "unused-imports/no-unused-vars": "error", // Changed from "off" to "error"
+    "unused-imports/no-unused-imports": "error", // Changed from "warn" to "error"
     "object-curly-spacing": ["error", "never"],
     "@typescript-eslint/no-unused-vars": [
-      "warn",
+      "error", // Changed from "warn" to "error"
       {
         "args": "after-used",
         "ignoreRestSiblings": false,
